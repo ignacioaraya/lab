@@ -1,0 +1,5 @@
+CC=gcc
+CFLAGS=-o
+
+websrv: WebSrv.c Web.c Comm.c
+	$(CC) $(CFLAGS) $@ $^ 
